@@ -1,0 +1,16 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method BombenProdukt\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:homeDirectory\\(\\) should return string but returns mixed\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Method BombenProdukt\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:joinPaths\\(\\) has parameter \\$paths with no type specified\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Method BombenProdukt\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:joinPaths\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
