@@ -4,20 +4,6 @@
     </a>
 </p>
 
-<p align="center">
-    <a href="https://github.com/faustbrian/environment-paths/actions">
-        <img src="https://badge.sh/github/check-runs/BombenProdukt/environment-paths" alt="Checks" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/environment-paths">
-        <img src="https://badge.sh/packagist/downloads/BombenProdukt/environment-paths" alt="Downloads" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/environment-paths">
-        <img src="https://badge.sh/packagist/version/BombenProdukt/environment-paths" alt="Version" />
-    </a>
-    <a href="https://packagist.org/packages/bombenprodukt/environment-paths">
-        <img src="https://badge.sh/packagist/license/BombenProdukt/environment-paths" alt="License" />
-    </a>
-</p>
 
 ## About Environment Paths
 
