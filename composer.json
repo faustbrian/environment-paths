@@ -14,7 +14,7 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/BombenProdukt/environment-paths",
+    "homepage": "https://github.com/faustbrian/environment-paths",
     "require": {
         "php": "^8.2",
         "illuminate/support": "^10.0",
