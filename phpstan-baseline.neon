@@ -14,3 +14,8 @@ parameters:
 			message: "#^Method BombenProdukt\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:joinPaths\\(\\) should return string but returns string\\|null\\.$#"
 			count: 1
 			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 7
+			path: src/EnvironmentPaths.php
