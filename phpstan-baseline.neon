@@ -1,0 +1,51 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:get\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:homeDirectory\\(\\) should return string but returns bool\\|string\\|null\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:joinPaths\\(\\) has parameter \\$paths with no type specified\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:joinPaths\\(\\) should return string but returns string\\|null\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:linux\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:macos\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\EnvironmentPaths\\\\EnvironmentPaths\\:\\:windows\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Short ternary operator is not allowed\\. Use null coalesce operator if applicable or consider using long ternary\\.$#"
+			count: 7
+			path: src/EnvironmentPaths.php
+
+		-
+			message: "#^Undefined variable\\: \\$this$#"
+			count: 1
+			path: tests/Pest.php
